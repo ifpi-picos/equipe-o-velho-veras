@@ -18,6 +18,12 @@ nav{
     position: fixed;
 }
 
+main{
+    margin-left: 350px;
+    margin-top: 5px;
+    width: 72%;
+}
+
 ul{
     margin: 0;
     padding: 100px 122px;
@@ -26,11 +32,22 @@ ul li{
     margin: 42px 0px;
     list-style: none;
     color: #fff;
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 nav h1{
     text-align: center;
     color: #fff;
     margin-top: 75px;
+}
+
+section{
+    border: 1px solid rgb(58, 57, 57);
+    min-height: 422px;
+    width: 100%;
+    margin-top: 27px;
+}
+
+section h1{
+    text-align: center;
 }
