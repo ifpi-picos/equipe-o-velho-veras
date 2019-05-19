@@ -4,7 +4,7 @@ body{
     width: 100%;
 }
 
-h1, li{
+h1, h2, li{
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -14,8 +14,12 @@ nav, main{
 }
 
 nav{
-    background-color: brown;
+    background-color: rgb(29, 26, 49);
     position: fixed;
+}
+
+#home img{
+    width: 100%;
 }
 
 main{
@@ -42,12 +46,36 @@ nav h1{
 }
 
 section{
-    border: 1px solid rgb(58, 57, 57);
     min-height: 422px;
     width: 100%;
     margin-top: 27px;
 }
-
-section h1{
+section #titulo{
     text-align: center;
+    margin: 4px;
+    font-size: 4rem;
+    color: rgb(29, 26, 49);
+}
+
+section h2{
+    text-align: center;
+    margin: 4px;
+    font-size: 2rem;
+    color: rgb(29, 26, 49);
+}
+
+.botoes{
+    padding: 10px 337px;
+}
+
+.botao1{
+    cursor: pointer;
+    width: 299px;
+    height: 44px;
+    background-color: #fff;
+    border: 2px solid rgb(29, 26, 49);
+    color: rgb(29, 26, 49);
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin: 32px 0px 65px 0px;
 }
