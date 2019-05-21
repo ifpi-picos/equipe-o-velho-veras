@@ -1,45 +1,24 @@
+/*body*/
 body{
     margin: 0;
     padding: 0;
     width: 100%;
 }
+/*body*/
 
+/*texto*/
 h1, h2, li{
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/*texto*/
 
-nav, main{
-    margin: 0;
-    display: inline-block;
-}
-
+/*nav*/
 nav{
     width: 17%;
+    height: 100%;
     background-color: rgb(29, 26, 49);
     position: fixed;
-}
-
-#home img{
-    width: 100%;
-    height: 330px;
-}
-
-main{
-    margin-left: 277px;
-    margin-top: 5px;
-    width: 77%;
-}
-
-ul{
-    margin: 0;
-    padding: 35px 0px 122px 0px;
     text-align: center;
-}
-ul li{
-    margin: 42px 0px;
-    list-style: none;
-    color: #fff;
-    font-size: 1.5rem;
 }
 
 nav h1{
@@ -58,11 +37,46 @@ nav img{
     border-radius: 100%;
 }
 
+nav, main{
+    margin: 0;
+    display: inline-block;
+}
+
+ul{
+    margin: 0;
+    padding: 35px 0px 122px 0px;
+    text-align: center;
+}
+ul li{
+    margin: 42px 0px;
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+nav a{
+    text-decoration: none;
+}
+/*nav*/
+
+
+/*main*/
+main{
+    margin-left: 18%;
+    width: 77%;
+}
+/*main*/
+
+/*section*/
+#home img{
+    width: 100%;
+    margin-top: 20px;
+}
+
 section{
     min-height: 422px;
     width: 100%;
-    margin-top: 27px;
 }
+
 section #titulo{
     text-align: center;
     margin: 4px;
@@ -78,7 +92,7 @@ section h2{
 }
 
 .botoes{
-    padding: 2px 374px;
+    text-align:center;
 }
 
 .botao1{
@@ -92,3 +106,4 @@ section h2{
     font-size: 2rem;
     margin: 32px 0px 65px 0px;
 }
+/*section*/
