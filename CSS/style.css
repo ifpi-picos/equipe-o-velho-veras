@@ -1,46 +1,24 @@
+/*body*/
 body{
     margin: 0;
     padding: 0;
     width: 100%;
 }
+/*body*/
 
+/*texto*/
 h1, h2, li{
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/*texto*/
 
-nav, main{
-    margin: 0;
-    display: inline-block;
-}
-
+/*nav*/
 nav{
     width: 17%;
+    height: 100%;
     background-color: rgb(29, 26, 49);
     position: fixed;
-}
-
-#home img{
-    width: 100%;
-    height: 330px;
-}
-
-main{
-    margin-left: 277px;
-    margin-top: 5px;
-    width: 77%;
-}
-
-ul{
-    margin: 0;
-    padding: 35px 0px 122px 0px;
     text-align: center;
-}
-ul li{
-    margin: 42px 0px;
-    list-style: none;
-    color: #fff;
-    font-size: 1.5rem;
-    
 }
 
 nav h1{
@@ -50,20 +28,66 @@ nav h1{
 }
 
 nav div{
-    padding: 0px 75px;
+    padding: 0px 30%;
 }
 
 nav img{
-    width: 80px;
-    height: 80px;
+    max-width: 100%;
     border-radius: 100%;
+    border: 4px solid rgb(29, 26, 49);
+}
+
+nav img:hover{
+    border: 4px solid #fff;
+}
+
+nav, main{
+    margin: 0;
+    display: inline-block;
+}
+
+ul{
+    margin: 0;
+    padding: 35px 0px 122px 0px;
+    text-align: center;
+}
+ul li{
+    margin: 42px 32px;
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+nav a{
+    text-decoration: none;
+}
+
+nav li:hover{
+    background-color: #fff;
+    color: rgb(29, 26, 49);
+}
+
+/*nav*/
+
+
+/*main*/
+main{
+    margin-left: 18%;
+    width: 80%;
+}
+/*main*/
+
+/*section*/
+#home img{
+    width: 100%;
+    margin-top: 20px;
 }
 
 section{
     min-height: 422px;
     width: 100%;
-    margin-top: 27px;
 }
+
 section #titulo{
     text-align: center;
     margin: 4px;
@@ -79,7 +103,7 @@ section h2{
 }
 
 .botoes{
-    padding: 2px 374px;
+    text-align:center;
 }
 
 .botao1{
@@ -93,3 +117,71 @@ section h2{
     font-size: 2rem;
     margin: 32px 0px 65px 0px;
 }
+
+.botao1:hover{
+    background-color: rgb(29, 26, 49);
+    color: #fff;
+}
+
+#equipe h1{
+    font-size: 3em;
+    color: rgb(29, 26, 49);
+    text-align: center;
+    margin-bottom: 59px;
+}
+
+#equipe div{
+    width: 239px;
+    height: 450px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    margin: 0px 11px;
+    text-align: center;
+}
+
+#equipe div .membro{
+    width: 239px;
+    height: 255px;
+    border-radius: 5%;
+}
+
+#nome{
+    color: rgb(29, 26, 49);
+    margin: 7px 0px;
+    font-size: 1.4em;
+}
+
+#funcao{
+    color: rgb(29, 26, 49);
+    font-size: 1.0em;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 12px 0px;
+}
+
+#equipe div #social{
+    margin: 14px 0px;
+    width: 100%;
+    height: 25px;
+}
+
+#equipe div #social img{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin: 0px;
+}
+
+#equipe div #social h3{
+    margin: 0;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(29, 26, 49);
+    display: inline-block;
+    font-size: 1.2rem;
+    position: relative;
+    transform: translateY(-25%); 
+}
+
+#equipe div #social h3:hover{
+    text-decoration: underline;
+}
+/*section*/
