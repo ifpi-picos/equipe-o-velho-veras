@@ -190,15 +190,17 @@ section h2{
     text-decoration: underline;
 }
 /*section*/
-.containner{
-
-}
 .row{
-
+    width: 80%;
+    margin: 0px auto;
 }
 .icone{
     display: inline-block;
 }
-i{
-
+#a{
+    font-size: 80px;
+    padding: 8px;
+    margin: 5px;
+    color: rgb(29, 26, 49);
+    background-color: antiquewhite;
 }
