@@ -189,9 +189,8 @@ section h2{
     display: inline-block;
 }
 #a{
-    font-size: 80px;
+    font-size: 120px;
     padding: 8px;
-    margin: 5px;
+    margin: 5px 10px;
     color: rgb(29, 26, 49);
-    background-color: antiquewhite;
 }
