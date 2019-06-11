@@ -47,6 +47,7 @@ nav, main{
 }
 
 ul{
+    max-width: 100%;
     margin: 0;
     padding: 35% 0px;
     
@@ -120,7 +121,11 @@ section h2{
 
 .botao1:hover{
     background-color: rgb(29, 26, 49);
-    color: #fff;
+    color: #fff;;
+}
+
+#equipe{
+    text-align: center;
 }
 
 #equipe h1{
