@@ -7,56 +7,47 @@ body{
 /*body*/
 
 /*texto*/
-h1, h2, li{
+h1, h2, h3, p, li{
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(29, 26, 49);
 }
 /*texto*/
 
 /*nav*/
 nav{
-    width: 17%;
-    height: 100%;
+    width: 100%;
     background-color: rgb(29, 26, 49);
     position : fixed;
-    text-align: center;
 }
 
 nav h1{
-    text-align: center;
-    color: #fff;
-    margin-top: 20%;
-}
-
-nav div{
-    padding: 0px 30%;
-}
-
-nav img{
     max-width: 100%;
-    border-radius: 100%;
-    border: 4px solid rgb(29, 26, 49);
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin: 1.4% 9%;
 }
 
 nav img:hover{
     border: 4px solid #fff;
 }
 
-nav, main{
+nav{
     margin: 0;
-    display: inline-block;
 }
 
 ul{
-    margin: 0;
-    padding: 35% 0px;
-    
+    width: 32%;
+    margin: 2.2% 9%;
+    float: right;
 }
 ul li{
     text-align: center;
-    margin-bottom: 20%;
     list-style: none;
     color: #fff;
     font-size: 1.5rem;
+    display: inline-block;
+    margin: 0px 2.5%;
 }
 nav a{
     text-decoration: none;
@@ -72,18 +63,20 @@ nav li:hover{
 
 /*main*/
 main{
-    margin-left: 18%;
-    width: 80%;
+    padding: 9% 0px;
+    width: 100%;
 }
 /*main*/
 
 /*section*/
 #home img{
-    width: 100%;
-    margin-top: 10%;;
+    width: 70%;
+    margin-top: 1%;
 }
 
 section{
+    text-align: center;
+    margin: auto auto;
     min-height: 422px;
     width: 100%;
 }
@@ -120,10 +113,14 @@ section h2{
 
 .botao1:hover{
     background-color: rgb(29, 26, 49);
-    color: #fff;
+    color: #fff;;
 }
 
-#equipe h1{
+#equipe{
+    text-align: center;
+}
+
+section h1{
     font-size: 3em;
     color: rgb(29, 26, 49);
     text-align: center;
@@ -140,8 +137,8 @@ section h2{
 }
 
 #equipe div .membro{
-    width: 239px;
-    height: 255px;
+    width: 100%;
+    height: 60%;
     border-radius: 5%;
 }
 
@@ -185,15 +182,24 @@ section h2{
     text-decoration: underline;
 }
 /*section*/
-.containner{
-    
-}
 .row{
-
+    width: 100%;
+    margin: 0;
 }
 .icone{
     display: inline-block;
+    margin: 0% 5%;
 }
-i{
+.icone h2{
+    font-size: 1.5rem;
+}
+.icone p{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+#a{
+    font-size: 5rem;
+    margin: 0px;
+    color: rgb(29, 26, 49);
 }
