@@ -124,8 +124,8 @@ section h1{
 }
 
 #equipe div .membro{
-    width: 239px;
-    height: 255px;
+    width: 100%;
+    height: 60%;
     border-radius: 5%;
 }
 
