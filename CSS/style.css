@@ -91,7 +91,7 @@ section h2{
     border: 2px solid rgb(29, 26, 49);
     color: rgb(29, 26, 49);
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2em;
+    font-size: 100%;
     padding-bottom: 0.4%;
 }
 
@@ -99,6 +99,7 @@ section h2{
     background-color: rgb(29, 26, 49);
     color: #fff;;
 }
+
 /*home*/
 
 
