@@ -165,10 +165,7 @@ section h1{
 /*equipe*/
 
 /*contato*/
-#contato{
-    margin-bottom: 0;
-}
-.row{
+.faixa_de_icones{
     width: 100%;
     margin: 0;
 }
@@ -183,11 +180,12 @@ section h1{
     font-size: 1.2em;
 }
 
-#a{
+#contato #icone{
     font-size: 5em;
-    margin: 0px;
+    margin: 0;
     color: rgb(29, 26, 49);
 }
+/*contato*/
 
 /*footer*/
 footer{
@@ -199,5 +197,5 @@ footer p{
     text-align: center;
     color: white;
 }
-/* 1-ajeitar o tamanho das letras do nav e ajeitar as letras que entram dentro de outras no nav */
+/*footer*/
 
