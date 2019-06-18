@@ -18,6 +18,7 @@ nav{
     background-color: rgb(29, 26, 49);
     position : fixed;
     vertical-align: middle;
+    height: 50px;
 }
 
 nav h1{
@@ -29,7 +30,6 @@ nav h1{
 ul{
     width: 40%;
     float: right;
-    padding-top: 0.3%;
 }
 ul li{
     list-style: none;
@@ -50,16 +50,18 @@ nav li:hover{
 
 /*main*/
 main{
-    padding: 9% 0;
+    padding: 10px;
     width: 100%;
 }
+
 /*main*/
 
 /*sections em geral*/
 section{
     text-align: center;
-    margin: 5% auto 9% auto;
+    margin: 10px auto;
     width: 100%;
+    padding: 50px 0;
 }
 
 section h2{
@@ -115,8 +117,8 @@ section h1{
 }
 
 #equipe div{
-    width: 20%;
-    height: 40%;
+    width: 17%;
+    height: 450px;
     display: inline-block;
     margin: 0 0.5%;
     text-align: center;
@@ -167,22 +169,17 @@ section h1{
 
 /*contato*/
 .faixa_de_icones{
-    width: 100%;
-    margin: 0;
-}
-.icone{
+
+}    
+
+.icone{  
     display: inline-block;
-    margin: 0% 5%;
-}
-.icone h2{
-    font-size: 1.5em;
-}
-.icone p{
-    font-size: 1.2em;
+    vertical-align: top;
+    width: 33%;
 }
 
-#contato #icone{
-    font-size: 5em;
+#contato .icone{
+    font-size: 1em;
     margin: 0;
     color: rgb(29, 26, 49);
 }
