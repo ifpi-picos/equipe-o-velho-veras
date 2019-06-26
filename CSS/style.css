@@ -1,6 +1,6 @@
 /*body*/
 * {
-    caixa-sizing : border-box ;
+    box-sizing : border-box ;
   }
 body{
     margin: 0;
@@ -21,7 +21,6 @@ nav{
     background-color: rgb(29, 26, 49);
     position : fixed;
     vertical-align: middle;
-    height: 50px;
 }
 
 nav h1{
@@ -53,8 +52,8 @@ nav li:hover{
 
 /*main*/
 main{
-    padding: 10px;
     width: 100%;
+    padding: 0 0;
 }
 
 /*main*/
@@ -64,7 +63,7 @@ section{
     text-align: center;
     margin: 10px auto;
     width: 100%;
-    padding: 50px 0;
+    padding: 42px 0;
 }
 
 section h2{
@@ -83,9 +82,13 @@ section h1{
 /*sections em geral*/
 
 /*home*/
+#home{
+    margin: 0 auto;
+}
+
 #home img{
     width: 70%;
-    margin-top: 1%;
+    margin-top: 4%;
 }
 #home #titulo{
     text-align: center;
@@ -104,7 +107,7 @@ section h1{
     color: rgb(29, 26, 49);
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0.4%;
-    font-size: 100%;
+    font-size: 1.7em;
 }
 
 .botao1:hover{
@@ -172,7 +175,7 @@ section h1{
 
 /*contato*/
 .faixa_de_icones{
-
+    padding: 0 99px;
 }    
 
 .icone{  
@@ -181,10 +184,14 @@ section h1{
     width: 33%;
 }
 
-#contato .icone{
-    font-size: 1em;
+.icone i{
+    font-size: 5em;
     margin: 0;
     color: rgb(29, 26, 49);
+}
+
+.icone p{
+    font-size: 1.5em;
 }
 /*contato*/
 
