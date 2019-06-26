@@ -86,31 +86,56 @@ section h1{
     margin: 0 auto;
 }
 
-#home img{
-    width: 70%;
-    margin-top: 4%;
-}
-#home #titulo{
+#home .inicial{
+    width: 90%;
+    margin:  2% auto;
     text-align: center;
-    margin: 0.3%;
+}
+
+#home .imgs, #home .texto{
+    display: inline-block;
+    width: 40%;
+}
+
+#home .imgs .web{
+    width: 85%;
+    margin-top: 9%;
+}
+
+#home .imgs .browsers{
+    width: 60%;
+}
+
+#home .texto{
+    vertical-align: top;
+    margin-top: 9%;
+}
+
+#home .texto h1{
+    text-align: center;
+    vertical-align: top;
+    margin: 2%;
     font-size: 4em;
     color: rgb(29, 26, 49);
 }
-.botoes{
-    text-align:center;
-}
-.botao1{
-    cursor: pointer;
-    width: 22%;
-    background-color: #fff;
-    border: 2px solid rgb(29, 26, 49);
-    color: rgb(29, 26, 49);
-    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 0.4%;
-    font-size: 1.7em;
+
+#home .texto h2{
+    font-size: 2.2em;
 }
 
-.botao1:hover{
+.botao{
+    cursor: pointer;
+    width: 57%;
+    height: 55px;
+    background-color: #fff;
+    border: 3px solid rgb(29, 26, 49);
+    color: rgb(29, 26, 49);
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 12%;
+    font-size: 2em;
+}
+
+.botao:hover{
     background-color: rgb(29, 26, 49);
     color: #fff;
 }
