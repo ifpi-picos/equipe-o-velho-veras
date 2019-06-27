@@ -27,11 +27,13 @@ nav h1{
     color: #fff;
     display: inline-block;
     padding-left: 5%;
+     width: 30%;
 }
 
-ul{
-    width: 40%;
+nav ul{
+    width: 70%;
     float: right;
+    text-align: right;
 }
 ul li{
     list-style: none;
@@ -140,6 +142,7 @@ section h1{
     color: #fff;
 }
 
+
 /*home*/
 
 /*equipe*/
@@ -232,3 +235,43 @@ footer p{
 }
 /*footer*/
 
+@media(max-width:800px){
+    nav h1{
+        width: 100%;
+        text-align: center;
+    }
+    nav ul{
+        width: 100%;
+        text-align: center;
+    }
+    main{
+        padding-top: 70px;
+    }
+    #home .imgs, #home .texto{
+        width: 90%;
+    }
+    #home .texto h1{
+        font-size: 2em;
+    }
+    #home .texto h2{
+        font-size: 1.2em;
+    }
+    .botao{
+    width: 90%;
+    height: 55px;
+    font-size: 1.7em;
+    margin: 4% 0;
+    }
+}
+
+@media(min-width:800px),(max-width:1300){
+    #home .imgs, #home .texto{
+        width: 49%;
+    }
+    .botao{
+    width: 90%;
+    height: 55px;
+    font-size: 1.3em;
+    margin: 4% 0;
+    }
+}
