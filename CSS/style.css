@@ -247,7 +247,7 @@ footer p{
     main{
         padding-top: 70px;
     }
-    #home .imgs, #home .texto{
+    #home .imgs, #ho2em{
         width: 90%;
     }
     #home .texto h1{
@@ -273,5 +273,16 @@ footer p{
     height: 55px;
     font-size: 1.3em;
     margin: 4% 0;
+    }
+}
+
+@media(max-width:1000px){
+    #equipe div{
+        width: 25%;
+    }
+}
+@media(max-width:660px){
+    #equipe div{
+        width: 45%;
     }
 }
