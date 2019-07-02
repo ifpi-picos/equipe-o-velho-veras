@@ -235,6 +235,18 @@ footer p{
 }
 /*footer*/
 
+@media(max-width:900px){
+    #home .imgs, #home .texto{
+        width: 49%;
+    }
+    .botao{
+    width: 90%;
+    height: 55px;
+    font-size: 1.3em;
+    margin: 4% 0;
+    }
+}
+
 @media(max-width:800px){
     nav h1{
         width: 100%;
@@ -261,28 +273,5 @@ footer p{
     height: 55px;
     font-size: 1.7em;
     margin: 4% 0;
-    }
-}
-
-@media(min-width:800px),(max-width:1300){
-    #home .imgs, #home .texto{
-        width: 49%;
-    }
-    .botao{
-    width: 90%;
-    height: 55px;
-    font-size: 1.3em;
-    margin: 4% 0;
-    }
-}
-
-@media(max-width:1000px){
-    #equipe div{
-        width: 25%;
-    }
-}
-@media(max-width:660px){
-    #equipe div{
-        width: 45%;
     }
 }
